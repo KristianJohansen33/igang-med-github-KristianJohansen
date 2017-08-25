@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaScript forEach</title>
+<meta charset="UTF-8">
+<meta name="viewprot" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="container">
+<h1>Simple title</h1>
+
+<p>simple text</p>
+
+<ul id="udskrift">
+    <li style='color: red'>JavaScript fuck mate, fix det</li>
+</ul>
+
+<i>hvis ingen farvet navnen i overståne, tjek fejl bedeskeder i konsolen</i>
+
+<script>
+
+//Reference til html elementet
+var udskrift_html = document.getElementById("udskrift");
+
+//Array
+var et_array = [
+    "mobil",
+    "internet_explore",
+    "rød?"
+
+];
+//innerHTML
+udskrift_html.innerHTML = "";
+
+//forEach
+
+et_array.forEach (function (enFarve, index){
+    udskrift_html.innerHTML += "<li>" + enFarve + "</li>";
+});
+
+//console.log
+console.log(et_array);
+</script>
+
+</div>
+</body>
+</html>

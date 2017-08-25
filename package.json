@@ -1,0 +1,23 @@
+{
+  "name": "server-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristianJohansen33/igang-med-github-KristianJohansen.git"
+  },
+  "author": "CJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristianJohansen33/igang-med-github-KristianJohansen/issues"
+  },
+  "homepage": "https://github.com/KristianJohansen33/igang-med-github-KristianJohansen#readme",
+  "dependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
